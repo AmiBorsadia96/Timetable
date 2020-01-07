@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtun"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            android:text="Username:"
+            android:textSize="25dp"></TextView>
+        <EditText
+            android:id="@+id/etunm"
+            android:layout_width="wrap_content"
+            android:ems="20"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="15dp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtpwd"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:text="Password:"
+            android:textSize="25dp"></TextView>
+        <EditText
+            android:id="@+id/etpwd"
+            android:layout_width="wrap_content"
+            android:ems="20"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="15dp"
+            />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="220dp"
+        android:layout_height="74dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:id="@+id/btnsub"
+        android:text="Submit"
+        android:onClick="submit"
+        android:textSize="25dp"></Button>
+
+</LinearLayout>

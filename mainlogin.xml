@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtrole"
+        android:text="What is your role?"
+        android:textSize="29dp"
+        android:layout_gravity="center"></TextView>
+
+    <ImageView
+        android:id="@+id/isbtn"
+        android:layout_width="172dp"
+        android:layout_height="170dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/student"
+        android:onClick="studentlogin"></ImageView>
+
+    <ImageView
+        android:id="@+id/ifbtn"
+        android:layout_width="172dp"
+        android:layout_height="170dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/faculty"
+        android:onClick="facultylogin"></ImageView>
+
+    <ImageView
+        android:id="@+id/iabtn"
+        android:layout_width="172dp"
+        android:layout_height="170dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/admin"
+        android:onClick="adminlogin"></ImageView>
+</LinearLayout>
